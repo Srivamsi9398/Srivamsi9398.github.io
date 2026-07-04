@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Vamsi Chitta | Data Scientist & Data Engineer</title>
+    <meta name="description" content="Portfolio of Sri Vamsi Chitta. MS Data Science, UND. Data Scientist and Data Engineer with 3.5+ years of experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#hero" class="logo">SVC</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+    </div>
+</nav>
+<section id="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <p class="hero-greeting">Hi, I am</p>
+            <h1>Sri Vamsi Chitta</h1>
+            <div class="typewriter-wrapper">
+                <span id="typewriter"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">I build data pipelines and ML systems that turn messy raw data into decisions people actually act on.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-links">
+                <a href="https://github.com/Srivamsi9398" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/sri-vamsi-chitta" target="_blank">LinkedIn</a>
+                <a href="mailto:srivamsi9398@gmail.com">Email</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="monogram">SVC</div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">3.5+</span><span class="stat-label">Years Exp</span></div>
+                <div class="stat"><span class="stat-num">6+</span><span class="stat-label">ML Projects</span></div>
+                <div class="stat"><span class="stat-num">2M+</span><span class="stat-label">Records</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>I recently completed my <strong>Master's in Data Science</strong> at the University of North Dakota (May 2026). Before grad school, I spent 3.5 years at Infosys building production data systems for a global financial platform.</p>
+            <p>My work sits at the intersection of <strong>data engineering</strong> and <strong>applied machine learning</strong>. I design ETL pipelines that scale, write SQL that performs, and build predictive models that actually get deployed.</p>
+            <p>Three things I care about when I build:</p>
+            <ol>
+                <li><strong>Correctness before speed</strong> — a fast wrong answer is worse than a slow right one</li>
+                <li><strong>Docs are part of the deliverable</strong> — if the next engineer cannot run it, I did not finish it</li>
+                <li><strong>Measure the impact</strong> — every project should end with a number</li>
+            </ol>
+        </div>
+        <div class="about-details">
+            <div class="detail-card"><span class="detail-icon">&#127891;</span><span class="detail-label">Degree</span><span class="detail-value">MS Data Science, UND</span></div>
+            <div class="detail-card"><span class="detail-icon">&#128205;</span><span class="detail-label">Location</span><span class="detail-value">Open to Relocate</span></div>
+            <div class="detail-card"><span class="detail-icon">&#128188;</span><span class="detail-label">Experience</span><span class="detail-value">3.5+ Years</span></div>
+            <div class="detail-card"><span class="detail-icon">&#128270;</span><span class="detail-label">Looking For</span><span class="detail-value">DS / DE / AE Roles</span></div>
+        </div>
+    </div>
+</section>
+<section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-group"><h3>Languages</h3><div class="tags"><span>Python</span><span>SQL</span><span>Java</span><span>R</span><span>JavaScript</span></div></div>
+        <div class="skill-group"><h3>Data and ETL</h3><div class="tags"><span>Pandas</span><span>NumPy</span><span>SQLAlchemy</span><span>ETL/ELT</span><span>Data Warehousing</span><span>Feature Engineering</span></div></div>
+        <div class="skill-group"><h3>ML / Modeling</h3><div class="tags"><span>Scikit-learn</span><span>PyTorch</span><span>TensorFlow</span><span>XGBoost</span><span>LightGBM</span><span>NLP</span><span>Computer Vision</span></div></div>
+        <div class="skill-group"><h3>Databases</h3><div class="tags"><span>MySQL</span><span>PostgreSQL</span><span>SQL Server</span><span>Snowflake</span><span>Oracle SQL</span></div></div>
+        <div class="skill-group"><h3>Cloud and DevOps</h3><div class="tags"><span>AWS (S3, SageMaker)</span><span>Docker</span><span>MLflow</span><span>CI/CD</span><span>Git/GitHub</span><span>Streamlit</span></div></div>
+        <div class="skill-group"><h3>BI and Visualization</h3><div class="tags"><span>Tableau</span><span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span></div></div>
+        <div class="skill-group"><h3>AI-Assisted Dev</h3><div class="tags"><span>Claude Code</span><span>Prompt Engineering</span><span>AI Workflows</span></div></div>
+    </div>
+</section>
+<section id="projects">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card"><div class="project-num">01</div><h3>SQL Portfolio</h3><p>Five production-grade SQL problems with multiple approaches, index recommendations, and trade-off notes. Window functions, islands-and-gaps, query optimization at scale.</p><div class="tags"><span>SQL</span><span>Window Functions</span><span>Optimization</span></div><a href="https://github.com/Srivamsi9398/sql-portfolio" target="_blank" class="project-link">View on GitHub</a></div>
+        <div class="project-card"><div class="project-num">02</div><h3>Python ETL Pipeline</h3><p>Real ETL pipeline: public API to Pandas to SQLite with incremental loads, structured logging, error handling, and unit tests. Built to ship, not to demo.</p><div class="tags"><span>Python</span><span>Pandas</span><span>SQLite</span><span>pytest</span></div><a href="https://github.com/Srivamsi9398/etl-pipeline-python" target="_blank" class="project-link">View on GitHub</a></div>
+        <div class="project-card"><div class="project-num">03</div><h3>AI-Assisted Dev Workflow</h3><p>Documented patterns for using Claude Code to accelerate data engineering. Refactoring, debugging, docs. Honest about where AI is not enough.</p><div class="tags"><span>Claude Code</span><span>Prompt Eng</span><span>Python</span></div><a href="https://github.com/Srivamsi9398/ai-assisted-dev-workflow" target="_blank" class="project-link">View on GitHub</a></div>
+        <div class="project-card"><div class="project-num">04</div><h3>Thyroid Cancer Risk Analytics</h3><p>ETL pipeline ingesting 10K+ clinical records, engineering 15 variables into a curated reporting layer, with Tableau dashboards for non-technical audiences.</p><div class="tags"><span>Python</span><span>Tableau</span><span>Healthcare</span></div><span class="project-link muted">Academic Project</span></div>
+        <div class="project-card"><div class="project-num">05</div><h3>IoT Anomaly Detection</h3><p>LSTM-based time-series anomaly detection on sensor data. Deployed on AWS with Docker, logging, and monitoring. Reduced false alarms by 45%.</p><div class="tags"><span>PyTorch</span><span>LSTM</span><span>AWS</span><span>Docker</span></div><span class="project-link muted">Academic Project</span></div>
+        <div class="project-card"><div class="project-num">06</div><h3>GAN vs Diffusion (Capstone)</h3><p>MS capstone comparing GAN and Diffusion architectures on face image generation. Analyzed FID and LPIPS metrics for generative model trade-offs.</p><div class="tags"><span>PyTorch</span><span>Computer Vision</span><span>Deep Learning</span></div><span class="project-link muted">MS Capstone</span></div>
+        <div class="project-card"><div class="project-num">07</div><h3>Student Performance Predictor</h3><p>Ensemble regression model with R-squared of 0.89, deployed as Streamlit web app with REST API. Presented findings to stakeholders.</p><div class="tags"><span>Scikit-learn</span><span>Streamlit</span><span>REST APIs</span></div><span class="project-link muted">Academic Project</span></div>
+        <div class="project-card"><div class="project-num">08</div><h3>Ransomware Classification</h3><p>Classification models (Random Forest, SVM, XGBoost) achieving 94% F1-score on behavioral sequence data with documented reusable code library.</p><div class="tags"><span>XGBoost</span><span>Scikit-learn</span><span>Data Mining</span></div><span class="project-link muted">Academic Project</span></div>
+    </div>
+</section>
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-date">2024 - May 2026</span><h3>MS Data Science</h3><p class="timeline-org">University of North Dakota</p><p>Coursework: Applied ML, Predictive Analytics, Statistical Methods, Deep Learning, Data Mining, Data Visualization.</p></div></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-date">2022 - 2024</span><h3>Data Scientist / System Engineer</h3><p class="timeline-org">Infosys Pvt Ltd</p><p>Built classification models on 2M+ records, reducing manual processes by 60%. Developed ETL pipelines handling 500K+ records at 99.8% data quality. Created Tableau dashboards tracking 15 KPIs.</p></div></div>
+        <div class="timeline-item"><div class="timeline-dot"></div><div class="timeline-content"><span class="timeline-date">Jan 2021 - Dec 2021</span><h3>Software Developer Intern</h3><p class="timeline-org">Magneq Software</p><p>Built REST APIs and backend services processing 100K+ records. Designed SQL schemas for analytics use cases. Used Git/GitHub in Agile sprints.</p></div></div>
+    </div>
+</section>
+<section id="contact">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="contact-desc">I am actively interviewing for <strong>Data Scientist</strong>, <strong>Data Engineer</strong>, <strong>Analytics Engineer</strong>, and <strong>Data Platform</strong> roles. If you are hiring or want to connect, reach out.</p>
+    <div class="contact-links">
+        <a href="https://linkedin.com/in/sri-vamsi-chitta" target="_blank" class="contact-card"><span class="contact-label">LinkedIn</span><span class="contact-handle">sri-vamsi-chitta</span></a>
+        <a href="https://github.com/Srivamsi9398" target="_blank" class="contact-card"><span class="contact-label">GitHub</span><span class="contact-handle">Srivamsi9398</span></a>
+        <a href="mailto:srivamsi9398@gmail.com" class="contact-card"><span class="contact-label">Email</span><span class="contact-handle">srivamsi9398@gmail.com</span></a>
+    </div>
+</section>
+<footer><p>2026 Sri Vamsi Chitta. Built from scratch.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
