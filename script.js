@@ -1,8 +1,8 @@
 /* Typewriter effect */
 const roles = [
     "Data Scientist",
-    "Data Engineer",
-    "Analytics Engineer",
+    "Full Stack Engineer",
+    "AI Engineer",
     "ML Engineer"
 ];
 
